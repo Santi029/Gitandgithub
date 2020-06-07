@@ -7,12 +7,24 @@ body {
     background-color: cornsilk;
 }
 
+h1 {
+    color: rgb(174, 240, 109);
+    padding: 10px;
+}
+
 h2 {
     color: #775577;
+    padding: 10px;
+
+}
+
+h3 {
+    color: darkcyan;
+    padding: 10px 5px;
 }
 
 .main-header {
-    border: 1px solid #505050;
+    /* border: 1px solid #505050; */
     display: inline-flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
@@ -48,15 +60,31 @@ h2 {
     flex-flow: wrap row;
     justify-content: space-between;
     align-content: center;
+    padding-right: 20px;
 }
 
 .menu ul {
-    width: 15%;
+    margin: 10px;
 }
 
 .main-post {
-    width: 33%;
-    border: 3px solid #8b2e8b;
-    padding: 10px;
-    margin: 10px;
+    width: 30%;
+    border: 3px solid #a760a7;
+    margin: 20px;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+.sub-post {
+    width: 100%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+.post-header {
+    width: 100%;
+    background-color: rgb(29, 29, 82);
+    box-shadow: 0px 5px 5px black;
 }
